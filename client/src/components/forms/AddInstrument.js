@@ -17,9 +17,9 @@ const AddInstrument = () => {
   const useStyles = makeStyles((theme) => ({
     root: {
       textFields: {
-        display: "block",
+        display: 'block',
         margin: theme.spacing(1),
-        width: '25ch',
+        width: '100%',
       },
     },
   }));
@@ -29,7 +29,7 @@ const AddInstrument = () => {
   return (
     <Container>
         <form className={classes.root} noValidate autoComplete="off">
-          <TextField id="outlined-basic" label="year" variant="outlined" />
+          <TextField  id="outlined-basic" label="year" variant="outlined" />
           <TextField id="outlined-basic" label="Brand" variant="outlined" />
           <TextField id="outlined-basic" label="Type" variant="outlined" />
           <TextField id="outlined-basic" label="Price" variant="outlined" />

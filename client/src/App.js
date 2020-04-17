@@ -21,6 +21,7 @@ const App = () => (
   <ApolloProvider client={client}>
     <Container className='App'>
       <Title />
+      <AddArtist />
       <AddInstrument />
       <Artist />  
     </Container>

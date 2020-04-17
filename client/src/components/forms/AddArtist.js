@@ -38,7 +38,7 @@ const AddArtist = () => {
         optimisticResponse: {
           __typename: 'Mutuation',
           addContact: {
-            __typename: 'Contact',
+            __typename: 'Artists',
             id,
             firstName,
             lastName
