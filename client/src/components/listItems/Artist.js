@@ -50,7 +50,6 @@ const Artist = props => {
       <Fragment>
         <ListItem>
           <ListItemText primary={fullName()} />
-          <TextField id="outlined-basic" label="Outlined" variant="outlined" />
           <Button 
           onClick={() => setEditMode(true)}
           variant='contained' 
